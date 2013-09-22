@@ -1,0 +1,17 @@
+ Geography Markup Language 
+ 
+ http://www.opengeospatial.org/standards/gml#downloads
+
+The Geography Markup Language (GML) is the XML grammar defined by the Open Geospatial Consortium (OGC) to express geographical features. GML serves as a modeling language for geographic systems as well as an open interchange format for geographic transactions on the Internet. Note that the concept of feature in GML is a very general one and includes not only conventional "vector" or discrete objects, but also coverages (see also GMLJP2) and sensor data. The ability to integrate all forms of geographic information is key to the utility of GML.
+
+As with most XML based grammars, there are two parts to the grammar – the schema that describes the document and the instance document that contains the actual data.
+
+A GML document is described using a GML Schema. This allows users and developers to describe generic geographic data sets that contain points, lines and polygons. However, the developers of GML envision communities working to define community-specific application schemas [en.wikipedia.org/wiki/GML_Application_Schemas] that are specialized extensions of GML. Using application schemas, users can refer to roads, highways, and bridges instead of points, lines and polygons. If everyone in a community agrees to use the same schemas they can exchange data easily and be sure that a road is still a road when they view it. 
+
+Clients and servers with interfaces that implement the OpenGIS® Web Feature Service Interface Standard[http://www.opengeospatial.org/standards/wfs] read and write GML data. 
+
+GML is also an ISO standard (ISO 19136:2007) [www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=32554 ]. 
+
+See also the GML pages on OGC Network: http://www.ogcnetwork.net/gml . 
+
+
