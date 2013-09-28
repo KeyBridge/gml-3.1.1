@@ -1,7 +1,58 @@
- Geography Markup Language 
- 
++------------------------------------------------------------------------------+
+|      Java implementation of the XML Geography Markup Language (GML)          |
++------------------------------------------------------------------------------+
+
+About: 
+   This is a compilation of the OGC(r) Geography Markup Language (GML) Encoding 
+   Standard
+
+Version
+  Comports with GML Revision: 3.1.1
+
+Copyright
+  Caulfield IP Holdings
+
+License
+  Apache License, Version 2.0
+
++------------------------------------------------------------------------------+
+|  Copyright (C) 2013 Caulfield IP Holdings (Caulfield) and/or its affiliates. |
++------------------------------------------------------------------------------+
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+
++------------------------------------------------------------------------------+
+| Dependencies                                                                 |
++------------------------------------------------------------------------------+
+
+GML dependencies include W3C xlink and W3C SMIL. Both of these are included 
+within this project source tree to simplify compilation but may be extracted
+by you into another class library if desired.
+  org.w3._1999.xlink    - Attribute group, complex type and simple type definitions
+                          Original: http://www.w3.org/1999/xlink.xsd
+                          Latest  : http://www.w3.org/XML/2008/06/xlink.xsd
+  org.w3._2001.smil20   - Synchronized Multimedia Integration Language
+                          Latest is 3.0 at http://www.w3.org/TR/smil/
+  
+   
++------------------------------------------------------------------------------+
+| Geography Markup Language                                                    |
++------------------------------------------------------------------------------+
+
+Reference:
  http://www.opengeospatial.org/standards/gml#downloads
 
+Background:
 The Geography Markup Language (GML) is the XML grammar defined by the Open Geospatial Consortium (OGC) to express geographical features. GML serves as a modeling language for geographic systems as well as an open interchange format for geographic transactions on the Internet. Note that the concept of feature in GML is a very general one and includes not only conventional "vector" or discrete objects, but also coverages (see also GMLJP2) and sensor data. The ability to integrate all forms of geographic information is key to the utility of GML.
 
 As with most XML based grammars, there are two parts to the grammar – the schema that describes the document and the instance document that contains the actual data.
